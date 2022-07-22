@@ -29,7 +29,7 @@ public:
 				pos_player.x > e.posX + e.tamX
 				&& pos_player.y + tamY > e.posY && pos_player.y < e.posY + e.tamY)
 			{
-				std::cout << "FORA!\n";
+				e.is_inside = true;
 			}
 			else if (pos_player.x + tamX > e.posX
 				&& pos_player.y + tamY < e.posY && pos_player.y < e.posY + e.tamY ||
@@ -42,7 +42,21 @@ public:
 				&& pos_player.y > e.posY + e.tamY
 				)
 			{
-				std::cout << "DENTRO\n";
+				e.is_inside = false;
+			}
+			if (e.is_inside)
+			{
+				if (pos_player.x + tamX > e.posX && pos_player.x + tamX < e.posX + e.tamX / 2)
+					pos_player.x = e.posX - tamX;
+				else if (pos_player.x < e.posX + e.tamX && pos_player.x > e.posX + e.tamX / 2)
+					pos_player.x = e.posX + e.tamX;
+			}
+			else
+			{
+				if (pos_player.y + tamY > e.posY && pos_player.y + tamY < e.posY + e.tamY / 2)
+					pos_player.y = e.posY - tamY;
+				else if (pos_player.y < e.posY + e.tamY && pos_player.y > e.posY + e.tamY / 2)
+					pos_player.y = e.posY + e.tamY;
 			}
 		}
 	}
