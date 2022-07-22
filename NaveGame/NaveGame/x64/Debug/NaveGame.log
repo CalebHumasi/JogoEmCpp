@@ -1,0 +1,7 @@
+﻿  NaveGame.cpp
+D:\Caleb\NaveGame\NaveGame\LevelManager.cpp(94,37): warning C4244: '=': conversão de 'int' para 'T', possível perda de dados
+          with
+          [
+              T=float
+          ]
+  NaveGame.vcxproj -> D:\Caleb\NaveGame\x64\Debug\NaveGame.exe

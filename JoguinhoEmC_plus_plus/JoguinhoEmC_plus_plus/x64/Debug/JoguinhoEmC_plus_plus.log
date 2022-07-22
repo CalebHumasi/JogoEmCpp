@@ -1,0 +1,8 @@
+﻿  Game.cpp
+D:\Caleb\JoguinhoEmC_plus_plus\JoguinhoEmC_plus_plus\World.cpp(8,10): warning C4067: tokens inesperados após diretiva de pré-processador - esperado um newline
+  JoguinhoEmC_plus_plus.cpp
+D:\Caleb\JoguinhoEmC_plus_plus\JoguinhoEmC_plus_plus\World.cpp(8,10): warning C4067: tokens inesperados após diretiva de pré-processador - esperado um newline
+  Player.cpp
+D:\Caleb\JoguinhoEmC_plus_plus\JoguinhoEmC_plus_plus\World.cpp(8,10): warning C4067: tokens inesperados após diretiva de pré-processador - esperado um newline
+  Gerando Código...
+  JoguinhoEmC_plus_plus.vcxproj -> D:\Caleb\JoguinhoEmC_plus_plus\x64\Debug\JoguinhoEmC_plus_plus.exe
