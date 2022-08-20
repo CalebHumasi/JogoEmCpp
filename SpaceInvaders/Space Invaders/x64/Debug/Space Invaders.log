@@ -1,0 +1,15 @@
+﻿  Disco.cpp
+  Enemy1.cpp
+  Enemy2.cpp
+  Enemy3.cpp
+  Entity.cpp
+  Explosao.cpp
+  SpriteManager.cpp
+  Stage.cpp
+  Game.cpp
+  Player.cpp
+  Space Invaders.cpp
+  Tiro.cpp
+  TiroEn.cpp
+  Gerando Código...
+  Space Invaders.vcxproj -> D:\Caleb\Space Invaders\x64\Debug\Space Invaders.exe
